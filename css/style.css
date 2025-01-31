@@ -39,16 +39,16 @@ div{
 .red{
     background-color: #ff0000;
     text-align: right;
-    margin-left: 50px;
-    border-bottom: 2px solid black;
-    border-left: 5px solid black 
+    margin: 0px 0px 0px 50px;
+    border-width: 0px 0px 2px 5px;
+    border-style: none none solid solid 
 }
 .blue{
     background-color: #0000ff;
     text-align: left;
-    margin-right: 50px;
-    border-right: 5px solid black;
-    border-top: 2px solid black;
+    margin: 0px 50px 0px 0px;
+    border-width: 2px 5px 0px 0px;
+    border-style: solid solid none none
 }
 .blue h2{
     color: #c4c4c4
@@ -59,17 +59,17 @@ div{
 .yellow{
     background-color: #ff0;
     text-align: right;
-    margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    margin: 0px 0px 0px 50px;
+    border-width: 0px 0px 2px 5px;
+    border-style: none none solid solid;
     color: #707070
 }
 .green{
     background-color: #008500;
     text-align: left;
-    margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px
+    margin: 0px 50px 0px 0px;
+    border-width: 2px 5px 0px 0px;
+    border-style: solid solid none none
 }
 footer{
     background: rgb(0,0,0);
